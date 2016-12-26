@@ -4,7 +4,7 @@ import redis
 import os
 redis = redis.Redis('localhost')
 id = input("Enter Tabchi ID (1,2,3,4,5,...) : ")
-sudo = input("Enter Full Sudo ID : ")
+sudo = input("304061890")
 source = os.popen("cat base.lua").read()
 launcher = """while true; do
   ./telegram-cli-1222 -p tabchi-{} -s tabchi-{}.lua
